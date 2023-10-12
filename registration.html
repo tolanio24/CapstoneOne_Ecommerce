@@ -55,33 +55,231 @@
         </div>
       </nav>
     </section>
-    <header><h1>Products</h1></header>
+    <header><h1></h1></header>
     <main>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
-        corrupti? Quas, dignissimos necessitatibus? Amet dolor deserunt
-        nesciunt, assumenda, quisquam harum facere sapiente voluptates qui ea
-        provident natus voluptas illum perspiciatis! Lorem ipsum dolor sit amet
-        consectetur, adipisicing elit. Tempore beatae amet odio cupiditate unde
-        quam, tenetur similique nobis repudiandae quae temporibus blanditiis,
-        sunt ullam quaerat numquam officia deleniti quia. Minima.lorem Lorem
-        ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam iste fuga
-        minus incidunt nesciunt quia blanditiis expedita, iure debitis magni
-        suscipit? Facilis fugit quis nam ad, nemo possimus sit assumenda. Lorem
-        ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsam
-        voluptate numquam deserunt eaque similique veritatis illo obcaecati
-        amet, consequuntur hic, repellendus consequatur natus nobis corrupti
-        voluptas placeat nesciunt magni? Lorem ipsum dolor sit amet, consectetur
-        adipisicing elit. Itaque officiis exercitationem placeat quisquam
-        eligendi, illo aperiam voluptatum ipsum aspernatur vero consequuntur id
-        fugiat sit alias optio quod debitis minima nostrum! Lorem ipsum, dolor
-        sit amet consectetur adipisicing elit. Animi dignissimos velit facere
-        eligendi error enim excepturi ullam eveniet exercitationem eaque.
-        Molestias sed magni recusandae placeat quidem nam quasi expedita quia.
-      </p>
+      <style>
+        .gradient-custom {
+          /* fallback for old browsers */
+          background: white;
+
+          /* Chrome 10-25, Safari 5.1-6 */
+          background: -webkit-linear-gradient(
+            to bottom right,
+            white,
+            white
+          );
+
+          /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+          background: linear-gradient(
+            to bottom right,
+            white
+            white
+          );
+        }
+
+        .card-registration
+          .select-input.form-control[readonly]:not([disabled]) {
+          font-size: 1rem;
+          line-height: 2.15;
+          padding-left: 0.75em;
+          padding-right: 0.75em;
+        }
+        .card-registration .select-arrow {
+          top: 13px;
+        }
+        .mt-4, pt-2 {
+            position:  relative; left: 588px;
+        }
+      </style>
+      <section class="vh-100 gradient-custom">
+        <div class="container py-5 h-100">
+          <div class="row justify-content-center align-items-center h-100">
+            <div class="">
+              <div
+                class=""
+                style="border-radius: 15px"
+              >
+                <div class="card-body p-4 p-md-5">
+                  <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Register Today</h3>
+                  <form>
+                    <div class="row">
+                      <div class="col-md-6 mb-4">
+                        <div class="form-outline">
+                          <input
+                            type="text"
+                            id="firstName"
+                            class="form-control form-control-lg"
+                          />
+                          <label class="form-label" for="firstName"
+                            >First Name</label
+                          >
+                        </div>
+                      </div>
+                      <div class="col-md-6 mb-4">
+                        <div class="form-outline">
+                          <input
+                            type="text"
+                            id="lastName"
+                            class="form-control form-control-lg"
+                          />
+                          <label class="form-label" for="lastName"
+                            >Last Name</label
+                          >
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-md-6 mb-4 d-flex align-items-center">
+                        <div class="form-outline datepicker w-100">
+                          <input
+                            type="text"
+                            class="form-control form-control-lg"
+                            id="birthdayDate"
+                          />
+                          <label for="birthdayDate" class="form-label"
+                            >Birthday</label
+                          >
+                        </div>
+                      </div>
+                      <div class="col-md-6 mb-4">
+                        <h6 class="mb-2 pb-1">Gender:</h6>
+
+                        <div class="form-check form-check-inline">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="inlineRadioOptions"
+                            id="femaleGender"
+                            value="option1"
+                            checked
+                          />
+                          <label class="form-check-label" for="femaleGender"
+                            >Female</label
+                          >
+                        </div>
+
+                        <div class="form-check form-check-inline">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="inlineRadioOptions"
+                            id="maleGender"
+                            value="option2"
+                          />
+                          <label class="form-check-label" for="maleGender"
+                            >Male</label
+                          >
+                        </div>
+
+                        <div class="form-check form-check-inline">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="inlineRadioOptions"
+                            id="otherGender"
+                            value="option3"
+                          />
+                          <label class="form-check-label" for="otherGender"
+                            >Other</label
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <h6 class="mb-2 pb-1">How'd you hear about us?</h6>
+
+                        <div class="form-check form-check-inline">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="inlineRadioOptions"
+                            id="femaleGender"
+                            value="option1"
+                            checked
+                          />
+                          <label class="form-check-label" for="social media"
+                            >Social Media</label
+                          >
+                        </div>
+
+                        <div class="form-check form-check-inline">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="inlineRadioOptions"
+                            id="maleGender"
+                            value="option2"
+                          />
+                          <label class="form-check-label" for="referral"
+                            >Friend</label
+                          >
+                        </div>
+
+                        <div class="form-check form-check-inline">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="inlineRadioOptions"
+                            id="otherGender"
+                            value="option3"
+                          />
+                          <label class="form-check-label" for="other"
+                            >Other</label
+                          >
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-md-6 mb-4 pb-2">
+                        <div class="form-outline">
+                          <input
+                            type="email"
+                            id="emailAddress"
+                            class="form-control form-control-lg"
+                          />
+                          <label class="form-label" for="emailAddress"
+                            >Email</label
+                          >
+                        </div>
+                      </div>
+                      <div class="col-md-6 mb-4 pb-2">
+                        <div class="form-outline">
+                          <input
+                            type="tel"
+                            id="phoneNumber"
+                            class="form-control form-control-lg"
+                          />
+                          <label class="form-label" for="phoneNumber"
+                            >Phone Number</label
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-check d-flex justify-content-center mb-5">
+                        <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3c" />
+                        <label class="form-check-label" for="form2Example3">
+                          I agree all statements in <a href="#!">Terms of service</a>
+                        </label>
+                      </div>
+                    <div class="mt-4 pt-2">
+                      <input
+                        class="btn btn-primary btn-lg"
+                        type="submit"
+                        value="Register Now"
+                      />
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     />
-    <div style="background-color: dimgrey">
+    <div style="background-color: rgb(56, 75, 86)">
       <div class="container">
         <footer class="py-3 my-4">
           <ul
@@ -109,21 +307,31 @@
 
           <ul class="nav justify-content-center border-bottom pb-3 mb-3">
             <li class="nav-item">
-              <a href="/index.html" class="nav-link px-2 text-body-secondary">Home</a>
+              <a href="/index.html" class="nav-link px-2 text-body-secondary"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a href="/products.html" class="nav-link px-2 text-body-secondary">Products</a>
+              <a href="/products.html" class="nav-link px-2 text-body-secondary"
+                >Products</a
+              >
             </li>
             <li class="nav-item">
-              <a href="/registration.html" class="nav-link px-2 text-body-secondary"
+              <a
+                href="/registration.html"
+                class="nav-link px-2 text-body-secondary"
                 >Sign Up</a
               >
             </li>
             <li class="nav-item">
-              <a href="/login.html" class="nav-link px-2 text-body-secondary">Login</a>
+              <a href="/login.html" class="nav-link px-2 text-body-secondary"
+                >Login</a
+              >
             </li>
             <li class="nav-item">
-              <a href="/checkout.html" class="nav-link px-2 text-body-secondary">Checkout</a>
+              <a href="/checkout.html" class="nav-link px-2 text-body-secondary"
+                >Checkout</a
+              >
             </li>
           </ul>
           <p class="text-center text-body-secondary">
