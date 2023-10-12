@@ -1,1 +1,2 @@
-# Capstone 1: E-commerce
+# Capstone 1: E-commerce - Guerilla's PC Warehouse is an innovative E-commerce website dedicated to providing a seamless and comprehensive shopping experience for computer enthusiasts and consumers looking to purchase a wide range of computer hardware, software, and accessories. Our mission is to become the go-to destination for anyone in need of high-quality, reliable, and cutting-edge computer products.
+<a href="#"><img src="img/logo.png" class="logo" alt="" /></a> - I liked this code alot because its the life of my website, the Guerilla!
